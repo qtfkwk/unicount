@@ -1,4 +1,5 @@
-#[doc = include_str!("../README.md")]
+#![doc = include_str!("../README.md")]
+
 use {clap::ValueEnum, unicode_segmentation::UnicodeSegmentation};
 
 fn split(s: &str) -> Vec<String> {

@@ -1,6 +1,6 @@
 [package]
 name = "unicount-lib"
-version = "0.1.3"
+version = "0.1.4"
 edition = "2021"
 repository = "https://github.com/qtfkwk/unicount"
 description = "Alphabetic counter supporting unicode"
@@ -8,5 +8,5 @@ license = "MIT"
 
 [dependencies]
 anyhow = "1.0.98"
-clap = { version = "4.5.36", features = ["derive"] }
+clap = { version = "4.5.37", features = ["derive"] }
 unicode-segmentation = "1.12.0"
