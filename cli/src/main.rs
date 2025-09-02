@@ -1,6 +1,6 @@
 use {
     anyhow::Result,
-    clap::{builder::Styles, Parser},
+    clap::{Parser, builder::Styles},
     unescaper::unescape,
     unicount_lib::{Counter, Kind},
 };
