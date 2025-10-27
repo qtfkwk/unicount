@@ -6,4 +6,5 @@
     * 0.1.3 (2025-04-16): Update dependencies
     * 0.1.4 (2025-05-10): Fix doc; update dependencies
 * 0.2.0 (2024-09-02): Update dependencies; 2024 edition
+    * 0.2.1 (2024-10-27): Update dependencies
 
