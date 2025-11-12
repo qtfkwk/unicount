@@ -1,6 +1,6 @@
 [package]
 name = "unicount"
-version = "0.2.1"
+version = "0.2.2"
 edition = "2024"
 repository = "https://github.com/qtfkwk/unicount"
 description = "Alphabetic counter supporting unicode"
@@ -8,7 +8,7 @@ license = "MIT"
 
 [dependencies]
 anyhow = "1.0.100"
-clap = { version = "4.5.50", features = ["derive", "wrap_help"] }
+clap = { version = "4.5.51", features = ["derive", "wrap_help"] }
 clap-cargo = "0.18.3"
 unescaper = "0.1.6"
-unicount-lib = { version = "0.2.1", path = "../lib" }
+unicount-lib = { version = "0.2.2", path = "../lib" }

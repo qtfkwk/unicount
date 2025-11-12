@@ -4,7 +4,7 @@ use {clap::ValueEnum, unicode_segmentation::UnicodeSegmentation};
 
 fn split(s: &str) -> Vec<String> {
     UnicodeSegmentation::graphemes(s, true)
-        .map(|x| x.to_string())
+        .map(ToString::to_string)
         .collect()
 }
 
@@ -14,6 +14,7 @@ pub struct Counter {
 }
 
 impl Counter {
+    #[must_use]
     pub fn new(alphabet: &str, start: usize) -> Counter {
         Counter {
             current: start,
@@ -57,6 +58,7 @@ pub enum Kind {
 }
 
 impl Kind {
+    #[must_use]
     pub fn counter(&self, start: usize) -> Counter {
         match self {
             Kind::EnglishUpper => Counter::new("ABCDEFGHIJKLMNOPQRSTUVWXYZ", start),
