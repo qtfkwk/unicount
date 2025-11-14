@@ -1,6 +1,6 @@
 [package]
 name = "unicount-lib"
-version = "0.2.2"
+version = "0.2.3"
 edition = "2024"
 repository = "https://github.com/qtfkwk/unicount"
 description = "Alphabetic counter supporting unicode"

@@ -2,7 +2,7 @@
 
 ```text
 $ unicount -V
-unicount 0.2.2
+unicount 0.2.3
 ```
 
 ```text
