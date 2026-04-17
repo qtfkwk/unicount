@@ -39,7 +39,7 @@ assert_eq!(
 
 ```text
 $ unicount -V
-unicount 0.2.4
+unicount 0.2.5
 ```
 
 ```text
